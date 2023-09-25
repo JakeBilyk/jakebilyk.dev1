@@ -1286,8 +1286,12 @@ input, select, textarea {
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 2.5em;
 						}
+				.pdf-viewer {
+							display: none;
+				}
 
 		}
+		
 
 /* Basic */
 
@@ -1348,6 +1352,9 @@ input, select, textarea {
 				font-size: 12pt;
 				
 			}
+			.pdf-viewer {
+				display: none;
+			}
 
 		}
 
@@ -1391,6 +1398,9 @@ input, select, textarea {
 
 		h3, h4, h5, h6 {
 			font-size: 1em;
+		}
+		.pdf-viewer {
+			display: none;
 		}
 
 	}
@@ -1537,6 +1547,10 @@ input, select, textarea {
 				margin: 0 0 1em 0;
 			}
 
+			.pdf-viewer {
+				display: none;
+			}
+
 		}
 
 /* Image */
@@ -1673,6 +1687,10 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			.pdf-viewer {
+				display: none;
+			}
+
 		}
 
 /* List */
@@ -1722,6 +1740,10 @@ input, select, textarea {
 				ul.actions li:first-child {
 					margin-top: 0;
 				}
+			
+			.pdf-viewer {
+					display: none;
+			}
 
 		}
 
@@ -1924,6 +1946,9 @@ input, select, textarea {
 				padding: 1em 0;
 				max-width: calc(100% - 2em);
 			}
+			.pdf-viewer {
+				display: none;
+			}
 
 		}
 
@@ -1969,6 +1994,9 @@ input, select, textarea {
 
 				#main > .panel {
 					padding: 2em 1.5em 1.5em 1.5em;
+				}
+				.pdf-viewer {
+					display: none;
 				}
 
 			}
@@ -2132,6 +2160,10 @@ input, select, textarea {
 							font-size: 1em;
 							margin: 0.25em 0 0 0;
 						}
+					
+					.pdf-viewer {
+							display: none;
+					}
 
 				}
 
