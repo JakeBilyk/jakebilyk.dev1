@@ -1526,6 +1526,7 @@ input, select, textarea {
 
 	section, article {
 		margin-bottom: 3em;
+
 	}
 
 		section > :last-child, section:last-child, article > :last-child, article:last-child {
@@ -1552,6 +1553,13 @@ input, select, textarea {
 			}
 
 		}
+	#work h2, #projects h2 {
+		text-align: center;
+	}
+
+	.pdf-viewer {
+		text-align: center;
+	}
 
 /* Image */
 
