@@ -1561,6 +1561,9 @@ input, select, textarea {
 		text-align: center;
 	}
 
+	#social h2, #social section {
+		text-align: center;
+	}
 /* Image */
 
 	.image {
