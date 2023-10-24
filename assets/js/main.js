@@ -158,9 +158,31 @@
 							}, (breakpoints.active('small') ? 0 : 500));
 
 					}, 250);
-
 			});
+    // Swipe Left and Right Functions
+    function swipeLeft() {
+        var nextPanel = $panels.filter('.active').next();
+        if (nextPanel.length > 0) {
+            showPanel(nextPanel);
+        }
+    }
 
+    function swipeRight() {
+        var prevPanel = $panels.filter('.active').prev();
+        if (prevPanel.length > 0) {
+            showPanel(prevPanel);
+        }
+    }
+
+    // Add swipe event listeners
+    $body.on('swipeleft', swipeLeft);
+    $body.on('swiperight', swipeRight);
+
+    // ... (existing code)
+
+    // Show the initial panel
+    showPanel($panels.filter('.active'));
+	
 	// IE: Fixes.
 		if (browser.name == 'ie') {
 
