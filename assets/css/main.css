@@ -25,7 +25,9 @@ section, summary, time, mark, audio, video {
 .icon.brands.fa-facebook,
 .icon.brands.fa-instagram,
 .icon.brands.fa-linkedin,
-.icon.brands.fa-discord {
+.icon.brands.fa-discord,
+.icon.brands.fa-github,
+.icon.brands.fa-twitter {
     font-size: 65px; /* Adjust the size as needed */
 }
 
