@@ -42,7 +42,20 @@ section, summary, time, mark, audio, video {
 	color: #7289da;
 }
 
+/* Make the .fa-github logo the color of githubs logo */
+.icon.brands.fa-github {
+	color: #333;
+}
 
+/* Make the .fa-facebook logo the color of facebooks logo */
+.icon.brands.fa-facebook {
+	color: #3b5998;
+}
+
+/* Make the .fa-twitter logo the color of twitters logo */
+.icon.brands.fa-twitter {
+	color: #1da1f2;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
