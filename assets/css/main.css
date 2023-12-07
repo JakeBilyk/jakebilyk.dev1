@@ -29,6 +29,20 @@ section, summary, time, mark, audio, video {
     font-size: 65px; /* Adjust the size as needed */
 }
 
+/* Make the .fa-instagram logo the color of instagrams logo */
+.icon.brands.fa-instagram {
+	color: #e1306c;
+}
+/* Make the .fa-linked logo the color of linkedins logo */
+.icon.brands.fa-linkedin {
+	color: #0077b5;
+}
+/* Make the .fa-discord logo the color of discords logo */
+.icon.brands.fa-discord {
+	color: #7289da;
+}
+
+
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
