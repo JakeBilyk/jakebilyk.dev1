@@ -74,6 +74,7 @@ img { display: block; max-width: 100%; height: auto; }
  padding-top: 2rem;
  border-top: 1px solid #e5e5e5;
 }
+.facility-images { display: grid; gap: 1rem; min-width: 0; }
 .facility-image { display: block; }
 .facility-image img { width: 100%; height: auto; }
 .facility-entry figcaption { min-width: 0; overflow-wrap: anywhere; }
