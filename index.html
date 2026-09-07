@@ -1,141 +1,194 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 	<head>
 		<title>Jake Bilyk</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
-
-		<!-- Wrapper, I am pretty sure the wrapper is the boxy interactive element, currently appearing in 'white' that contains all the main elements.-->
-			<div id="wrapper">
-
-				<!-- Nav -->
-					<nav id="nav">
-						<a href="#" class="icon solid fa-user"><span>Intro</span></a>
-						<a href="#work" class="icon solid fa-folder"><span>Resume</span></a>
-						<a href="#projects" class="icon solid fa-hammer"><span>Projects</span></a>
-						<a href="#social" class="icon brands fa-pagelines"><span>Contact</span></a>
-					</nav>
-
-				<!-- Main -->
-					<div id="main">
-
-						<!-- Me -->
-							<article id="home" class="panel intro">
-								<header>
-									<h1>Jake Bilyk</h1>
-									<p>Digital greetings! Thank you for visiting my personal website.  Here I wish
-										to share my skillset, passions, goals, and ways I live my life.
-									</p>
-								</header>
-								<a href="#work" class="jumplink pic">
-									<img src="images/IMG_1333.jpg" alt="" /> <!--still have to find the other refs to image name so I can change it... -->
-								</a>
-							</article>
-
-						<!-- Work -->
-							<!-- Resume -->
-							<article id="work" class="panel">
-							    <header>
-							        <h2>Resume</h2>
-							    </header>
-							    <section>
-							        <div class="row">
-							            <div class="col-12">
-											<div class="pdf-viewer">
-							                	<!-- PDF Previewer, the current size vals function okay rn, 1.294 ratio -->
-							                	<iframe src="https://drive.google.com/file/d/1yHsQKPlspwNkOSDJP9QMDO7dJ5Lo3QHp/preview" width="736" height="952" allow="autoplay" style="border:none"></iframe>
-											</div>
-										
-							                <!-- Download PDF Button -->
-							                <div style="text-align: center;">
-												<a href="JakeBilyk_ResumeCV_10312023_Keck.pdf" target="_blank" class="button">Download Resume PDF</a>
-											</div>
-							            </div>
-							        </div>
-							    </section>
-							</article>
-
-
-						<!-- Projects -->
-						<!-- Here I want to display a description of my 3D printing experience and an image
-						of my printer. Below that I want to display some images things I have designed and/or printed  -->
-							<article id="projects" class="panel">
-								<header>
-									<h2>Projects</h2>
-								</header>
-								<section>
-									<div class="row">
-										<!-- Here I want to display a description of my 3D printing experience and an image
-										of my printer. Below that I want to display some images things I have designed and/or printed  -->
-										<div class="col-12">
-											<h3>3D Printing</h3>
-											<p>I have been running a Creality Ender-3 Pro for 1 year now alongside Fusion360 Student.  I have created
-												some useful inventions for around the house and in the laboratory!</p>
-												<a href="#" class="image fit">
-													<img src="images\mixed_image_1200wide.jpg" alt="Jake's Printer and Invention">
-												</a>
-										</div>
-										<div class="col-12">
-											<h3>Programming</h3>
-											<p>I believe all formal STEM Education should have a stronger focus on programming.  My journey past Excel
-											    began with making small adjustments to MATLAB control scripts in 2018 and then writing scripts in MATLAB and
-												Python for my Materials Engineering coursework and personal research.  I have compiled my own Marlin firmware for my 3D
-												printer and have written a few small programs in C and Python.  I am currently ~40% complete with CodeCademy's Full Stack
-												Engineer course.  Go see my GitHub for more and future contributions!
-											</p>
-										</div>
-										<div class="col-12">
-											<h3>DIY Auto</h3>
-											<p>With help from friends and local resources I have cared for all my vehicles during their lifetimes.
-												My first car is still running great after difficult repairs such as new thermostat housing, fresh calipers, and
-												throttle body done by myself.  I am also working on bringing an old 1996 convetible back to life on which we have already
-												replaced the valve cover gaskets, spark plugs, rear drums, front brakes, and faulty electrical.
-											</p>
-											<a href="#" class="image fit">
-												<img src="images\mixed_cars1200wide.jpg" alt="Jake's Cars">
-											</a>											
-										</div>
-									</div>
-								</section>
-							</article>
-
-						<!-- Projects -->
-						<article id="social" class="panel">
-							<header>
-								<h2>Connect with me</h2>
-							</header>
-							<section>
-								<a href="https://www.facebook.com/Jake.Bilyk.14" target="_blank" class="icon brands fa-facebook"><span></span></a>
-								<a href="https://www.instagram.com/headovertoesguy/" target="_blank" class="icon brands fa-instagram"><span></span></a>
-								<a href="https://www.linkedin.com/in/JakeBilyk" target="_blank" class="icon brands fa-linkedin"><span></span></a>
-								<a href="https://discordapp.com/users/J_bil" target="_blank" class="icon brands fa-discord"><span></span></a>
-								<!-- add more social media links here, first github, then x twitter -->
-								<br>
-								<br>
-								<a href="https://www.github.com/JakeBilyk" target="_blank" class="icon brands fa-github"><span></span></a>
-								<a href="https://www.twitter.com/JakeBilyk" target="_blank" class="icon brands fa-twitter"><span></span></a>
-							</section>
-						</article>
+		<div id="wrapper">
+			<nav id="nav" aria-label="Main navigation">
+				<a href="#home" class="icon solid fa-user"><span>Intro</span></a>
+				<a href="#work" class="icon solid fa-folder"><span>Resume</span></a>
+				<a href="#projects" class="icon solid fa-hammer"><span>Projects</span></a>
+				<a href="#social" class="icon solid fa-envelope"><span>Contact</span></a>
+			</nav>
+			<main id="main">
+				<article id="home" class="panel intro">
+					<header>
+						<h1>Jake Bilyk</h1>
+						<p>Digital greetings! Thank you for visiting my personal website.  Here I wish
+							to share my skillset, passions, goals, and ways I live my life.
+						</p>
+					</header>
+					<a href="#work" class="jumplink pic" aria-label="View Jake Bilyk’s resume">
+						<img src="images/IMG_1333.jpg" alt="Jake Bilyk" />
+					</a>
+				</article>
+				<article id="work" class="panel">
+					<header>
+						<h2>Resume</h2>
+					</header>
+					<div class="resume-images">
+						<a href="images/JakeBilykResumePage1.png" aria-label="Open resume page 1 at full size"><img src="images/JakeBilykResumePage1.png" alt="Jake Bilyk Resume Page 1" class="resume-page"></a>
+						<a href="images/JakeBilykResumePage2.png" aria-label="Open resume page 2 at full size"><img src="images/JakeBilykResumePage2.png" alt="Jake Bilyk Resume Page 2" class="resume-page"></a>
 					</div>
-			<!-- Footer -->
-				<div id="footer">
-					<ul class="copyright">
-						<li>&copy; CCA 3.0</li><li>Design: @ajlkn & @JakeBilyk</li>
-					</ul>
-				</div>
+				</article>
+				<article id="projects" class="panel">
+					<header>
+						<h2>Projects: Professional and Personal</h2>
+					</header>
+					<section>
+						<div class="row">
+							<div class="col-12">
+								<h3>3D Printing</h3>
+								<p>I started on a Creality Ender-3 Pro alongside Fusion360 back in 2021.  I have created
+									some useful inventions for around the house and in the laboratory. Then, I had the honor to design and print for hundreds of hours on a Bambu X1 Carbon
+									 at my previous job. I am a big fan of open-source equipment but I have to admit that it was a pleasure to be able to walk away after starting a print knowing 
+									success was near guaranteed.  Now I run an Ender-6 at home and design in SolidWorks. </p>
+								<div class="image fit">
+									<img src="images/mixed_image_1200wide.jpg" alt="Jake's Printer and Invention">
+								</div>
+							</div>
+							<div class="col-12">
+								<h3>Programming</h3>
+								<p>I believe all formal STEM Education should have a stronger focus on programming.  My journey past Excel
+									began with making small adjustments to MATLAB control scripts in 2018 and then writing scripts in MATLAB and
+									Python for my Materials Engineering coursework and personal research.  I have compiled my own Marlin firmware for my 3D
+									printer and have written a few small programs in C and Python.  Now, I definitely use AI services to speed up my work but I'm grateful 
+									to have had the opportunity to code some solid projects before the birth of consumer AI. My literacy in programming allowed me to implempent some serious 
+									IoT full-stack projects at NELHA that reduced labor and permitted GMP alerts / tracking. Go see my GitHub for more and future contributions!
+								</p>
+							</div>
+							<div class="col-12">
+								<h3>DIY Auto</h3>
+								<p>With help from friends I have cared for all my vehicles during their lifetimes.
+									I can only hope my first car (Chelsea) is still running great somewhere in California after intermediate repairs such as a new thermostat housing, fresh calipers, and
+									throttle body.  I also brought an old 1996 convertible (The Hot Tamale) back to a legal functioning life by
+									replacing the valve cover gaskets, spark plugs, rear drums, front brakes, and faulty electrical. 
+									Someone is still enjoying this during the Minnesota summers. Now I drive a beastly little Ford Focus (Lil Blue) approaching a quarter million miles here in Hawaii. 
+									I also ride motorcycle, a Kawasaki KLX 300 named Rambi.
+								</p>
+								<div class="image fit">
+									<img src="images/mixed_cars1200wide.jpg" alt="Jake's Cars">
+								</div>
+							</div>
+							<section id="facilities" class="facilities" aria-labelledby="facilities-heading">
+								<h3 id="facilities-heading">Examples of Facilities Work
+								</h3>
+								<div class="facilities-list">
+									<!-- Copy a facility-entry figure to add another image and description. -->
+									<figure class="facility-entry">
+										<a class="facility-image" href="images/AncientAutoclaves.png" aria-label="Open autoclaves image at full size">
+											<img src="images/AncientAutoclaves.png" alt="Autoclaves" loading="lazy" decoding="async">
+										</a>
+										<figcaption>
+											<h4>Old School Autoclaves</h4>
+											<p>It was an honor keeping this stubborn piece of Polish manufacturing alive so that my coworkers could keep their lab supplies sterile. 
+												Turns out procuring commerical equipment from eBay can work out if you're not afraid of diving into old technical documents and in-situ troubleshooting 
+												with the proper PPE.
+											</p>
+										</figcaption>
+									</figure>
+									<figure class="facility-entry">
+										<a class="facility-image" href="images/Centrifuge1.png" aria-label="Open centrifuge image at full size">
+											<img src="images/Centrifuge1.png" alt="Centrifuge" loading="lazy" decoding="async">
+										</a>
+										<figcaption>
+											<h4>Centrifuges</h4>
+											<p>Processing algae down at NELHA called for new afforadable adventures.  Even if the installation instructions aren't available 
+												and the application isn't straight forward, giving up is not an option!
+											</p>
+											<a class="facility-image" href="images/3D-Prints.png" aria-label="Open 3d prints image at full size">
+											<img src="images/3D-Prints.png" alt="3D Prints" loading="lazy" decoding="async">
+										</a>
+										</figcaption>
+									</figure>
+									<figure class="facility-entry">
+										<a class="facility-image" href="images/CreativeDewatering.png" aria-label="Open dewatering image at full size">
+											<img src="images/CreativeDewatering.png" alt="Dewatering" loading="lazy" decoding="async">
+										</a>
+										<figcaption>
+											<h4>Custom Plumbing and Printing</h4>
+											<p>When older inventions get baked in the sun, sometimes you have to work the extra hours and come up with a new solution. 
+												This was my rapid response to a dewatering issue our team faced.  Not perfect by any means, but it worked in a pinch! Some threaded rods, gaskets, 
+												CAD and ABS filament leads to desired water levels.  That Bambu printed FPT threads!
+											</p>
 
+										</figcaption>
+									</figure>
+
+									<figure class="facility-entry">
+										<a class="facility-image" href="images/ISO-CompressedGas.png" aria-label="Open compressed gas image at full size">
+											<img src="images/ISO-CompressedGas.png" alt="Compressed Gas" loading="lazy" decoding="async">
+										</a>
+										<figcaption>
+											<h4>Compressed Gas</h4>
+											<p>When the boss says affordability comes with scale, you scale. Here is an example of an upgraded compressed gas system we installed to cut the cost of our supply. 
+												I really enjoy solving problems at my desk but not afraid to dig trenches in lava rock either.
+											</p>
+										</figcaption>
+									</figure>
+									<figure class="facility-entry">
+										<div class="facility-images">
+											<a class="facility-image" href="images/MotorController.png" aria-label="Open motor controller image at full size">
+												<img src="images/MotorController.png" alt="Motor Controller" loading="lazy" decoding="async">
+											</a>
+											<a class="facility-image" href="images/VFD.png" aria-label="Open VFD image at full size">
+												<img src="images/VFD.png" alt="VFD" loading="lazy" decoding="async">
+											</a>
+										</div>
+										<figcaption>
+											<h4>Motor Controllers & VFDs</h4>
+											<p>Under the guidance of our lead engineer I was able to install, troubleshoot, and program some serious hardware for  up to 10HP regenerative blowers.</p>
+										</figcaption>
+									</figure>
+									<figure class="facility-entry">
+										<a class="facility-image" href="images/HeliostatArray.png" aria-label="Open heliostat array image at full size">
+											<img src="images/HeliostatArray.png" alt="Heliostat Array" loading="lazy" decoding="async">
+										</a>
+										<figcaption>
+											<h4>Heliostat Array</h4>
+											<p>This was a novel project i consulted on down at NELHA.  Solar-thermal-rotomolding</p>
+										</figcaption>
+									</figure>
+									<figure class="facility-entry">
+										<a class="facility-image" href="images/PriceLessOptics.png" aria-label="Open optics image at full size">
+											<img src="images/PriceLessOptics.png" alt="Optics" loading="lazy" decoding="async">
+										</a>
+										<figcaption>
+											<h4>Optics</h4>
+											<p>This project is what really started my engineering journey.  As an optics technician I was able to help our team 
+												repair the best ground telescope in the world.
+											</p>
+										</figcaption>
+									</figure>
+								</div>
+							</section>
+						</div>
+					</section>
+				</article>
+				<article id="social" class="panel">
+					<header>
+						<h2>Connect with me</h2>
+						<p>I have been off all forms of social media for a couple years now including LinkedIn more recently. 
+							I will be developing my website incrementally to make sure my online presence stays relevant. If you need to reach me please  
+						    email me at LastnameFirstname@gmail.com (wink wink).  Social timeline page coming soon!
+						</p>
+					</header>
+					<section>
+						<a href="https://github.com/JakeBilyk" class="github-link"><i class="icon brands fa-github" aria-hidden="true"></i><span>JakeBilyk on GitHub</span></a>
+					</section>
+				</article>
+			</main>
+			<footer id="footer">
+				<ul class="copyright">
+					<li>&copy; CCA 3.0</li><li>Design: @ajlkn & @JakeBilyk</li>
+				</ul>
+			</footer>
 		</div>
-
-	<!-- Scripts -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/browser.min.js"></script>
-		<script src="assets/js/breakpoints.min.js"></script>
-		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
-
-</body>
-</html>								
+	</body>
+</html>
